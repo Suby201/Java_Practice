@@ -64,10 +64,15 @@ public class PersonManagerArrayList {
 		System.out.println("\n" + title + "\n");
 	}
 	public void printTitleLine() {
-		for i ()
+		for (int i =0; i<60; i++) {
+			System.out.print("=");
+		}
 		System.out.println();
 	}
 	public void printItemLine() {
-		
+		for (int i =0; i<60; i++) {
+			System.out.print("-");
+		}
+		System.out.println();
 	}
 }
