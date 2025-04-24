@@ -41,7 +41,7 @@ public class Publication {
 	}
 	@Override
 	public String toString() {
-		return "Publication [title=" + title + ", publishingDate=" + publishingDate + ", page=" + page + ", price="
+		return "[title=" + title + ", publishingDate=" + publishingDate + ", page=" + page + ", price="
 				+ price + "]";
 	}
 }
